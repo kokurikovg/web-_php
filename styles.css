@@ -1,0 +1,111 @@
+body{
+	margin:0;
+	background-color:#898989;
+}
+header{
+	height:100px;
+	line-height:100px;
+	padding-bottom:30px;
+}
+.site h1{
+	float:left;
+	padding-left:20px;
+}
+.site h2{
+	float:left;
+	padding-left:40px;
+}
+.nav{
+	float:right;
+	padding-right:40px;
+}
+.nav a{
+	text-decoration:none;
+}
+.nav a{
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	max-width:180px;
+	text-align:left;
+	background-color:#ffa300;
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 7px;
+	border-radius:10px;
+	border-bottom:4px solid #d37800;
+}
+.nav a:active {
+	transform: translateY(4px);
+    border-bottom: none;
+}
+.products{
+	width:90%;
+	margin:0 auto;
+	padding-top:30px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.product{
+	width:450px;
+	height:450px;
+	text-align:center;
+}
+.product img{
+	width:350px;
+	height:350px;
+}
+
+.p_button{
+	text-align:center;
+}
+.login{
+	padding-top:30px;
+	text-align:center;
+}
+.btn{
+	padding-top:30px;
+	text-align:center;
+}
+.complete h2{
+	text-align:center;
+}
+.total{
+	width:60%;
+	margin:0 auto;
+	border:solid 5px #afeeee;
+	border-radius:25px;
+	background-color:linen;
+}
+.total h2{
+	text-align:center;
+}
+.login_a h2{
+	text-align:center;
+	color:#cc2222;
+}
+.login_b h2{
+	text-align:center;
+	color:#cc2222;
+}
+.u_order{
+	padding:3px 0;
+	padding-left:50px;
+}
+.all{
+	border:solid 3px #4682b4;
+	border-radius:10px;
+	background-color:linen;
+	margin-bottom:5px;
+}
+
+footer{
+	height:100px;
+	line-height:100px;
+	padding-top:30px;
+	text-align:center;
+	color:silver;
+}
+
